@@ -1,0 +1,21 @@
+{
+    "name": "ollieread/heimdallr",
+    "description": "Heimdallr is a simple yet powerful ACL system largely for us in my own projects.",
+    "keyword": ["acl", "laravel", "permissions", "access"],
+    "authors": [
+        {
+            "name": "Ollie Read",
+            "email": "labs@ollieread.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ollieread\\Heimdallr\\": "src/Ollieread/Heimdallr/"
+        }
+    },
+    "minimum-stability": "stable"
+}
